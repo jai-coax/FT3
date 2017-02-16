@@ -1,0 +1,35 @@
+{
+  "name": "familytree",
+  "version": "1.0.1",
+  "description": "family tree project -- NodeJS(express), Angularjs 2, MY SQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "MD5": "^1.3.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "latest",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "latest",
+    "debug": "^2.6.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-myconnection": "^1.0.4",
+    "express-session": "latest",
+    "fs": "0.0.1-security",
+    "morgan": "^1.8.0",
+    "mysql": "^2.13.0",
+    "mysql-model": "0.0.2",
+    "node-mysql": "^0.4.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-strategy": "^1.0.0",
+    "serve-favicon": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "author": "COAX TEAM",
+  "license": "MIT"
+}

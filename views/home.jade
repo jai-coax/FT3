@@ -1,0 +1,6 @@
+extends templates/default
+
+block content
+  h1= ' Welcome to Joint Family'
+  if isAuthenticated
+    p= 'you are welcome ' + user.name
